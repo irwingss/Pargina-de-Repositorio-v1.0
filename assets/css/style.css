@@ -334,11 +334,6 @@ section {
 --------------------------------------------------------------*/
 @media (max-width: 900px) {
 .section-title h2::after {
-    content: "";
-    width: 120px;
-    height: 0px;
-    display: inline-block;
-    background: #0073ba;
-    margin: 4px 10px;
+   display: none!important;
 }
 }
